@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 function getRandomDate() {
-  const start = new Date(1995, 5, 16); // June 16, 1995
+  const start = new Date(1995, 5, 16);
   const end = new Date();
   const random = new Date(
     start.getTime() + Math.random() * (end.getTime() - start.getTime())
