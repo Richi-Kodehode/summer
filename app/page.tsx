@@ -27,13 +27,13 @@ export default function Home() {
         href="/apod"
         className="px-8 py-4 rounded-lg bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-colors animate-fade-in mb-4"
       >
-        Picture of the Day
+        Today´s Date
       </Link>
       <button
         className="px-8 py-4 rounded-lg bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-colors animate-fade-in"
         onClick={() => router.push(`/apod/${getRandomDate()}`)}
       >
-        Random Picture of the Day
+        Random Date
       </button>
     </div>
   );

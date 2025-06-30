@@ -51,9 +51,6 @@ export default function ApodPage() {
         <h1 className="text-4xl font-extrabold text-center mb-2">
           NASA Astronomy Picture of the Day
         </h1>
-        <p className="text-center text-gray-600 dark:text-gray-300">
-          Powered by NASA Open API
-        </p>
       </header>
       {loading && <div className="text-lg animate-pulse">Loading...</div>}
       {error && <div className="text-red-500">{error}</div>}
