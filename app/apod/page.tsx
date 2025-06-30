@@ -21,9 +21,7 @@ export default function ApodPage() {
 
   useEffect(() => {
     if (!API_KEY) {
-      setError(
-        "NASA API key is missing. Please set NEXT_PUBLIC_APOD_API_KEY in your .env file."
-      );
+      setError("NASA API key is missing");
       setLoading(false);
       return;
     }
