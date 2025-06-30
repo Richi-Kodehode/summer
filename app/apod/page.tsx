@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import NasaImageCard from "../components/NasaImageCard";
+import NasaImageCard from "../../components/NasaImageCard";
 
 const API_KEY = process.env.NEXT_PUBLIC_APOD_API_KEY;
 
