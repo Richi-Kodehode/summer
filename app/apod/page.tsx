@@ -38,7 +38,7 @@ export default function ApodPage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen  p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 pt-20">
       <button
         className="mb-6 px-6 py-2 rounded-lg bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-colors"
         onClick={() => router.push("/")}

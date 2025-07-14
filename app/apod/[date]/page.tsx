@@ -91,7 +91,7 @@ export default function ApodDatePage() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen  dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 pt-20">
       <div className="flex flex-row gap-4 mb-6">
         <button
           className="px-6 py-2 rounded-lg bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-colors"
